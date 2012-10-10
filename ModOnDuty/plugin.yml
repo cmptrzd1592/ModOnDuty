@@ -1,0 +1,13 @@
+name: ModOnDuty
+main: com.github.cmptrzd1592.ModDuty.ModDuty
+version: 1.0
+
+commands:
+    modduty:
+        description: announces that the user is currently doing modreqs
+        usage: /<command>
+        permission: ModOnDuty.modduty
+        permission-message: You don't have <permission>
+permissions:
+    modduty.*:
+        description: gives access to all modduty commands        
